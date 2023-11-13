@@ -3,6 +3,7 @@
     --second-color: #33d1cc;
     --primary-color: #ff3150;
     --accent-color: #ffc400;
+    --section-color: #eff7fa;
 }
 
 body {
@@ -56,8 +57,87 @@ body {
 }
 /* end landing */
 /* start features */
-.features svg {
+/*compoonent*/
+.fire-ball {
     color: var(--accent-color);
     height: 75px;
 }
+
+.features .icon-holder {
+    height: 200px;
+}
+
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+
+.features .icon-holder .pencil {
+    color: var(--second-color);
+}
+
+.features .feat h4 {
+    color: var(--accent-color);
+}
+/*componenet*/
+.main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--second-color);
+    position: absolute;
+    bottom: -280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /* end features */
+/* start our-work */
+.our-work {
+    background-color: var(--section-color);
+}
+
+.our-work ul .active {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+.our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.our-work ul li:not(.active):hover {
+    color: var(--primary-color);
+}
+
+.our-work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-work .box::before {
+    content: attr(data-work);
+    position: absolute;
+    background-color: #19283f6e;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    transform: translateX(calc(-100% - 5px));
+}
+
+.our-work .box:hover::before {
+    transform: translateX(0);
+}
+/* end our-work */
