@@ -69,7 +69,7 @@ Bondi/
 └── README.md
 ```
 
-📬 Contact
+## 📬 Contact
 
 Twitter(X) : [@samuadda](https://x.com/samuadda)
 
