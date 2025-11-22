@@ -1,4 +1,4 @@
-<img src="./images/Bootstrap_logo.svg.png" width="500px" style="text-align=center">
+<img src="./images/Bootstrap_logo.svg.png" width="500px" style="text-align: center;">
 
 # Bondi – Bootstrap Landing Page Practice
 
@@ -67,6 +67,7 @@ Bondi/
 │   └── ...                
 ├── index.html
 └── README.md
+```
 
 📬 Contact
 
