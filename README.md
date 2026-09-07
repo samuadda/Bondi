@@ -1,3 +1,5 @@
+> **Project type: Learning / practice.** This repository documents an earlier stage of my development journey and is kept as a learning reference and portfolio exercise.
+
 <img src="./images/Bootstrap_logo.svg.png" width="500px" style="text-align: center;">
 
 # Bondi – Bootstrap Landing Page Practice
